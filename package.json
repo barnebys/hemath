@@ -1,0 +1,40 @@
+{
+  "name": "hemath",
+  "version": "0.2.0",
+  "description": "Build responsive Mautic Themes based on the Heml laungage",
+  "main": "index.js",
+  "bin": {
+    "hemath": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "dependencies": {
+    "heml": "^1.1.3",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-newer": "^1.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-util": "^3.0.8"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/barnebys/hemath.git"
+  },
+  "keywords": [
+    "mautic",
+    "heml",
+    "theme"
+  ],
+  "license": "MIT"
+}
