@@ -20,6 +20,10 @@ var _Container = require('./Container');
 
 var _Container2 = _interopRequireDefault(_Container);
 
+var _Column = require('./Column');
+
+var _Column2 = _interopRequireDefault(_Column);
+
 var _Button = require('./Button');
 
 var _Button2 = _interopRequireDefault(_Button);
@@ -32,4 +36,4 @@ var _Typography = require('./Typography');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = [_Slot2.default, _SlotContainer2.default, _Section2.default, _Container2.default, _Button2.default, _Img2.default, _Typography.H1, _Typography.H2, _Typography.H3, _Typography.H4, _Typography.H5, _Typography.H6, _Typography.P, _Typography.Ol, _Typography.Ul, _Typography.Li, _Typography.A];
+exports.default = [_Slot2.default, _SlotContainer2.default, _Section2.default, _Container2.default, _Column2.default, _Button2.default, _Img2.default, _Typography.H1, _Typography.H2, _Typography.H3, _Typography.H4, _Typography.H5, _Typography.H6, _Typography.P, _Typography.Ol, _Typography.Ul, _Typography.Li, _Typography.A];
