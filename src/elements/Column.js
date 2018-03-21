@@ -1,5 +1,5 @@
 import HEML, { createElement, transforms, cssGroups } from '@heml/utils' // eslint-disable-line no-unused-vars
-import Style from './Style'
+import Style from '@heml/elements'
 
 const {
     background,

@@ -1,6 +1,6 @@
 {
   "name": "hemath",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "description": "Build responsive Mautic Themes based on the Heml laungage",
   "main": "index.js",
   "bin": {

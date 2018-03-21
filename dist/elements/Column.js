@@ -12,9 +12,9 @@ var _utils = require('@heml/utils');
 
 var _utils2 = _interopRequireDefault(_utils);
 
-var _Style = require('./Style');
+var _elements = require('@heml/elements');
 
-var _Style2 = _interopRequireDefault(_Style);
+var _elements2 = _interopRequireDefault(_elements);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -53,7 +53,7 @@ exports.default = (0, _utils.createElement)('column', {
             (0, _extends3.default)({}, attrs, { width: largeWidth, style: `width: ${largeWidth};`, align: align, valign: 'top' }),
             contents.length === 0 ? '&nbsp;' : contents
         ), small === large ? '' : _utils2.default.renderElement(
-            _Style2.default,
+            _elements2.default,
             { 'for': 'column', 'heml-embed': true },
             `
          @media only screen and (max-width: ${breakpoint}px) {
