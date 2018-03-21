@@ -1,5 +1,5 @@
 import HEML, { createElement, transforms, cssGroups } from '@heml/utils' // eslint-disable-line no-unused-vars
-import Style from '@heml/elements'
+import { Style } from '@heml/elements'
 
 const {
     background,
@@ -10,7 +10,7 @@ const {
 
 const breakpoint = 600
 
-export default createElement('column', {
+export default createElement('col', {
     attrs: [ 'small', 'large', 'align' ],
     parent: [ 'row' ],
     defaultAttrs: { small: 12, large: 12, align: 'left' },

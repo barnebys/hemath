@@ -41,4 +41,10 @@ If a custom section is needed the element `<section />` can be used.
 ### Mautic Slots
 
 Buttons, images, and typographic elements will be rendered with a slot container followed by a slot when
-building. If custom slots and/or slot container is needed use `<slot>` and `<slotcontainer>`. 
+building. If custom slots and/or slot container is needed use `<slot>` and `<slotcontainer>`.
+
+### Aligning in columns
+
+HEML is not handling align and actually it's harcoded to left. Which causes some headache with Outlook.
+Since it's not possible to override allowed attributes on the Column element we have added `<Col />` that supports `align`.
+  

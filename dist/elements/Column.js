@@ -14,8 +14,6 @@ var _utils2 = _interopRequireDefault(_utils);
 
 var _elements = require('@heml/elements');
 
-var _elements2 = _interopRequireDefault(_elements);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var background = _utils.cssGroups.background,
@@ -26,7 +24,7 @@ var background = _utils.cssGroups.background,
 
 var breakpoint = 600;
 
-exports.default = (0, _utils.createElement)('column', {
+exports.default = (0, _utils.createElement)('col', {
     attrs: ['small', 'large', 'align'],
     parent: ['row'],
     defaultAttrs: { small: 12, large: 12, align: 'left' },
@@ -37,6 +35,7 @@ exports.default = (0, _utils.createElement)('column', {
     },
 
     render(attrs, contents) {
+        console.log(attrs);
         var align = attrs.align;
 
         var small = parseInt(attrs.small, 10);
@@ -53,7 +52,7 @@ exports.default = (0, _utils.createElement)('column', {
             (0, _extends3.default)({}, attrs, { width: largeWidth, style: `width: ${largeWidth};`, align: align, valign: 'top' }),
             contents.length === 0 ? '&nbsp;' : contents
         ), small === large ? '' : _utils2.default.renderElement(
-            _elements2.default,
+            _elements.Style,
             { 'for': 'column', 'heml-embed': true },
             `
          @media only screen and (max-width: ${breakpoint}px) {
