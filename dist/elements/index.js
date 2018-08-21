@@ -4,10 +4,6 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _Col = require('./Col');
-
-var _Col2 = _interopRequireDefault(_Col);
-
 var _Slot = require('./Slot');
 
 var _Slot2 = _interopRequireDefault(_Slot);
@@ -36,4 +32,4 @@ var _Typography = require('./Typography');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = [_Col2.default, _Slot2.default, _SlotContainer2.default, _Section2.default, _Container2.default, _Button2.default, _Img2.default, _Typography.H1, _Typography.H2, _Typography.H3, _Typography.H4, _Typography.H5, _Typography.H6, _Typography.P, _Typography.Ol, _Typography.Ul, _Typography.Li, _Typography.A];
+exports.default = [_Slot2.default, _SlotContainer2.default, _Section2.default, _Container2.default, _Button2.default, _Img2.default, _Typography.H1, _Typography.H2, _Typography.H3, _Typography.H4, _Typography.H5, _Typography.H6, _Typography.P, _Typography.Ol, _Typography.Ul, _Typography.Li, _Typography.A];

@@ -27,9 +27,9 @@
     "gulp-plumber": "^1.1.0",
     "gulp-util": "^3.0.8"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/barnebys/hemath.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barnebys/hemath.git"
   },
   "keywords": [
     "mautic",
